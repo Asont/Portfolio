@@ -1,6 +1,7 @@
 .projectBlock{
     min-height: 100vh;
     background-color: #b7f9ca;
+    width:100%;
 }
 
 .container{
@@ -15,6 +16,7 @@
 }
 
 .projectsContainer{
+
     border: 1px solid;
     width: 100%;
     display: flex;

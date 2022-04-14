@@ -2,10 +2,12 @@
 background-color: #d7eaf1;
     display: flex;
     flex-direction: column;
+    max-width: 200px;
+    width:100%;
 }
 
 .imgContainer{
-    width:250px;
+    width:200px;
     height:200px;
     background-color: #949d96;
     display: flex;
