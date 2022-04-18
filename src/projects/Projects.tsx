@@ -12,6 +12,10 @@ const Projects = () => {
                 <div className={style.projectsContainer}>
                     <Project title={"Моя первая работа"} description={"Описание первой работы"}/>
                     <Project title={"Моя вторая работа"} description={"Описание второй работы"}/>
+                    <Project title={"Моя вторая работа"} description={"Описание второй работы"}/>
+                    <Project title={"Моя вторая работа"} description={"Описание второй работы"}/>
+                    <Project title={"Моя вторая работа"} description={"Описание второй работы"}/>
+                    <Project title={"Моя вторая работа"} description={"Описание второй работы"}/>
 
                 </div>
             </div>

@@ -12,9 +12,8 @@ const Contacts = () => {
                     <input type={"text"}/>
                     <input type={"text"}/>
                     <textarea/>
+                    <button className={style.button} type={"submit"}>Отправить</button>
                 </form>
-                    <a className={style.button} href={""}>Отправить</a>
-
             </div>
         </div>
     );
