@@ -24,3 +24,9 @@
     box-sizing: border-box;
     padding: 40px;
 }
+
+@media screen and (max-width:603px){
+    .projectsContainer{
+        justify-content: center;
+    }
+}
