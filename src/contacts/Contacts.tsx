@@ -6,7 +6,6 @@ const Contacts = () => {
     return (
         <div className={style.contactsBlock}>
             <div className={`${styleContainer.container} ${style.container}`}>
-
                 <h3 className={style.title}>Контакты</h3>
                 <form className={style.formStyle}>
                     <input type={"text"}/>
