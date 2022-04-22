@@ -1,14 +1,14 @@
-.projectBlock{
-background-color: #d7eaf1;
+.projectBlock {
+    background-color: #d7eaf1;
     display: flex;
     flex-direction: column;
     max-width: 200px;
-    width:100%;
+    width: 100%;
 }
 
-.imgContainer{
-    width:200px;
-    height:200px;
+.imgContainer {
+    width: 200px;
+    height: 200px;
     background-color: #949d96;
     display: flex;
     justify-content: center;
@@ -17,27 +17,27 @@ background-color: #d7eaf1;
 }
 
 
-.link{
+.link {
     background-color: #c1cfd7;
     width: 100px;
     height: 25px;
     text-align: center;
     text-decoration: none;
-    color:#6b736d
+    color: #6b736d
 }
 
-.titleAndDesription{
+.titleAndDesription {
     display: flex;
     flex-direction: column;
-    margin:2px;
+    margin: 2px;
 }
 
-.title{
+.title {
     background-color: #d7eaf1;
-    margin:2px;
+    margin: 2px;
 }
 
-.description{
+.description {
     background-color: #d7eaf1;
-    margin:2px;
+    margin: 2px;
 }
