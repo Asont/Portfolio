@@ -16,7 +16,6 @@ const Projects = () => {
                     <Project title={"Моя вторая работа"} description={"Описание второй работы"}/>
                     <Project title={"Моя вторая работа"} description={"Описание второй работы"}/>
                     <Project title={"Моя вторая работа"} description={"Описание второй работы"}/>
-
                 </div>
             </div>
         </div>
