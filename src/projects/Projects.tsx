@@ -3,7 +3,6 @@ import style from "./Projects.module.css"
 import containerCommon from "../common/container.module.css"
 import Project from "./project/Project";
 
-
 const Projects = () => {
     return (
         <div className={style.projectBlock}>
