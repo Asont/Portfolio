@@ -7,7 +7,7 @@ const Remote = () => {
         <div className={style.remoteBlock}>
             <div className={`${styleContainer.container} ${style.container}`}>
                 <h3 className={style.title}>Рассматриваю варианты удаленной работы</h3>
-                <a href={""} className={style.button} >Нанять меня</a>
+                <a href={""} className={style.button}>Нанять меня</a>
             </div>
         </div>
     );
