@@ -15,7 +15,6 @@ const Footer = () => {
                 </div>
                 <h3 className={style.rights}>© 2022 Все права защищены</h3>
             </div>
-
         </div>
     );
 };
