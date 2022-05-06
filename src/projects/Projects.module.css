@@ -1,21 +1,17 @@
 .projectBlock{
-    background-color: #b7f9ca;
+    background-color: #ffffff;
     width:100%;
+    min-height: 100vh;
 }
 
 .container{
     align-items: center;
     justify-content: start;
     flex-direction:column;
-    background-color: #b7f9ca;
-}
-
-.title{
-    background-color: #d7eaf1;
+    background-color: #ffffff;
 }
 
 .projectsContainer{
-    border: 1px solid;
     width: 100%;
     display: flex;
     justify-content: space-between;
