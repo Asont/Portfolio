@@ -23,7 +23,6 @@
     text-decoration: none;
     color: #6b736d
 }
-
 .titleAndDesription {
     display: flex;
     flex-direction: column;
@@ -37,7 +36,6 @@
     font-size: 22px;
     line-height: 1.4;
 }
-
 .description {
     color:#999999;
     font-size: 16px;
