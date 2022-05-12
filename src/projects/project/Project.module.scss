@@ -1,0 +1,56 @@
+@import "./src/common/styles/variables";
+
+.projectBlock {
+  background-color: #d7eaf1;
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  margin: 0 0 30px;
+
+  .imgContainer {
+    height: 300px;
+    background-color: #949d96;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    .link {
+      background-color: #c1cfd7;
+      width: 100px;
+      height: 25px;
+      text-align: center;
+      text-decoration: none;
+      color: #6b736d
+    }
+  }
+
+  .titleAndDesription {
+    display: flex;
+    flex-direction: column;
+    margin: 2px;
+    padding: 10px;
+
+    .title {
+      font-family: 'Poppins', sans-serif;
+      color: $textTitleColor;
+      margin: 0 0 15px 0;
+      display: block;
+      font-size: 22px;
+      line-height: 1.4;
+    }
+
+    .description {
+      color:$textColor;
+      font-size: 16px;
+      padding: 0;
+      line-height: 24px;
+    }
+  }
+}
+
+
+
+

@@ -1,0 +1,27 @@
+@import "./src/common/styles/variables";
+
+.projectBlock {
+  background-color: $bgColor;
+  width: 100%;
+  min-height: 100vh;
+
+  .container {
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    background-color: $bgColor;
+
+    .projectsContainer {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      box-sizing: border-box;
+      padding: 40px;
+      @media screen and (max-width: 603px) {
+        justify-content: center;
+      }
+    }
+  }
+}
+
