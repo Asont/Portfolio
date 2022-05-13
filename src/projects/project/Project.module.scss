@@ -1,4 +1,5 @@
 @import "./src/common/styles/variables";
+@import "./src/common/styles/mixins";
 
 .projectBlock {
   background-color: #d7eaf1;
@@ -35,18 +36,14 @@
 
     .title {
       font-family: 'Poppins', sans-serif;
-      color: $textTitleColor;
       margin: 0 0 15px 0;
       display: block;
-      font-size: 22px;
-      line-height: 1.4;
+      @include text($textTitleColor, 22px, 1.4)
     }
 
     .description {
-      color:$textColor;
-      font-size: 16px;
       padding: 0;
-      line-height: 24px;
+      @include text($textColor, 16px, 24px)
     }
   }
 }
