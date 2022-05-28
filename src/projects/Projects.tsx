@@ -7,14 +7,12 @@ import todolist from './../assets/image/img1.png'
 import social from './../assets/image/img2.png'
 
 const Projects = () => {
-
     const todoListImg = {
         backgroundImage: `url(${todolist})`,
     };
     const socialImg = {
         backgroundImage: `url(${social})`,
     };
-
     return (
         <div className={style.projectBlock}>
             <div className={`${containerCommon.container} ${style.container}`}>
