@@ -5,7 +5,6 @@ import Project from "./project/Project";
 import Title from '../common/components/title/Title';
 import todolist from './../assets/image/img1.png'
 import social from './../assets/image/img2.png'
-
 const Projects = () => {
     const todoListImg = {
         backgroundImage: `url(${todolist})`,
