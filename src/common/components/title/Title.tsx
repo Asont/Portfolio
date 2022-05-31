@@ -10,4 +10,5 @@ const Title = (props: TitleType) => {
         <h3 className={style.title}>{props.text}</h3>
     );
 };
+
 export default Title;

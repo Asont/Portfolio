@@ -3,36 +3,30 @@
     display: flex;
     align-items: center;
 }
-
 .container {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-
 .title {
     margin-bottom: 40px;
     background-color: #c1cfd7;
 }
-
 .formStyle {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
 }
-
 .formStyle input {
     display: block;
     width: 270px;
     margin-bottom: 10px;
 }
-
 .formStyle textarea {
     width: 272px;
     min-height: 60px;
 }
-
 .button {
     text-align: center;
     margin: 40px 0 20px 0;
