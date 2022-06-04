@@ -13,7 +13,6 @@ const Projects = () => {
     const socialImg = {
         backgroundImage: `url(${social})`,
     };
-
     return (
         <div className={style.projectBlock}>
             <div className={`${containerCommon.container} ${style.container}`}>
