@@ -1,11 +1,9 @@
-@import'./src/common/styles/variables';
+@import '../../styles/sass/variables';
+@import '../../styles/sass/mixins';
 
 .title{
     margin: 0 0 30px 0;
-    font-family: 'Montserrat', sans-serif;
-    color: $textTitleColor;
-    font-size: 28px;
-    line-height: 44px;
+    @include text($titleFontFamily, $textTitleColor,28px, 44px);
     font-weight: 400;
 
 }

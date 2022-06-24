@@ -1,0 +1,19 @@
+@import '../common/styles/sass/variables';
+
+.remoteBlock {
+    background-color: $bgSecondColor;
+    .container {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        text-align: center;
+        .button {
+            width: 135px;
+            height: 25px;
+            background-color: #d7eaf1;
+            text-decoration: none;
+            color: #464e48;
+            border-radius: 8px;
+        }
+    }
+}

@@ -1,0 +1,39 @@
+@import '../common/styles/sass/variables';
+
+.contactsBlock {
+    background-color: $bgColor;
+    display: flex;
+    align-items: center;
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .formStyle {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            .button {
+                text-align: center;
+                margin: 40px 0 20px 0;
+                width: 108px;
+                height: 24px;
+                background-color: #d7eaf1;
+                text-decoration: none;
+                color: #464e48;
+                border: none;
+                border-radius: 8px;
+            }
+        }
+
+        .formStyle input {
+            display: block;
+            width: 270px;
+            margin-bottom: 10px;
+        }
+        .formStyle textarea {
+            width: 272px;
+            min-height: 60px;
+        }
+    }
+}
