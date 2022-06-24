@@ -4,3 +4,9 @@
   font-size:$font-size;
   line-height:$line-height;
 }
+
+@mixin backgroundImage (){
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
