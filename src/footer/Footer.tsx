@@ -4,6 +4,7 @@ import styleContainer from "../common/styles/container.module.css"
 import Title from '../common/components/title/Title';
 
 const Footer = () => {
+
     return (
         <div className={style.footerBlock}>
             <div className={`${styleContainer.container} ${style.container}`}>
