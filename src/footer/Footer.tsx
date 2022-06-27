@@ -19,6 +19,8 @@ const Footer = () => {
                 <h3 className={style.rights}>© 2022 ALL RIGHTS RESERVED</h3>
             </div>
         </div>
+
+
     );
 };
 
