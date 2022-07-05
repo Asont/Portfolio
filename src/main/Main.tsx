@@ -9,7 +9,6 @@ const Main = () => {
     const profileImg = {
         backgroundImage: `url(${photoProfile})`,
     };
-
     return (
         <div className={style.mainBlock}>
             <div className={styleContainer.container}>
