@@ -7,11 +7,13 @@ import Projects from "./projects/Projects";
 import Remote from "./remote/Remote";
 import Contacts from "./contacts/Contacts";
 import Footer from "./footer/Footer";
+import Presentation from "./presentation/Presentation";
 
 function App() {
     return (
         <div className="App">
             <Header/>
+            <Presentation/>
             <Main/>
             <Skills/>
             <Projects/>
