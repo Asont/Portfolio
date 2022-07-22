@@ -16,6 +16,7 @@ const Footer = () => {
                     <div className={style.square}> </div>
                 </div>
                 <h3 className={style.rights}>© 2022 ALL RIGHTS RESERVED</h3>
+                <div className={style.round}>1</div>
             </div>
         </div>
 
