@@ -1,10 +1,16 @@
 @import "../common/styles/sass/variables";
 
 .header {
+    opacity: 0.1;
+    width:100%;
+    position: fixed;
     height: 80px;
     background-color: $bgColor;
     display: flex;
     justify-content: flex-end;
     align-items: center;
     margin-right: 50px;
+    box-shadow: 0 67px 12px 0 rgba(0,0,0,0.03);
+    transition: all 0.3s;
+    z-index: 2;
 }

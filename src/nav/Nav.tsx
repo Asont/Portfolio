@@ -2,12 +2,15 @@ import React from 'react';
 import style from "./Nav.module.scss"
 
 const Nav = () => {
+
+
+
     return (
         <div className={style.nav}>
-            <a href={""}>Main</a>
-            <a href={""}>Skills</a>
-            <a href={""}>Projects</a>
-            <a href={""}>Contacts</a>
+            <a className={style.link} href={" "}>Main</a>
+            <a className={style.link} href={" "}>Skills</a>
+            <a className={style.link} href={" "}>Projects</a>
+            <a className={style.link} href={" "}>Contacts</a>
         </div>
     );
 };

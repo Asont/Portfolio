@@ -1,0 +1,36 @@
+@import '../common/styles/sass/variables';
+@import '../common/styles/sass/mixins';
+
+
+.mainBlock {
+  height: 100vh;
+  background-color: $bgColor;
+  @include backgroundImage();
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  @include text($textFontFamily, #F4F0FA, 50px, 50px);
+  margin: 0;
+  padding: 0;
+
+  .textAuto {
+    &::after {
+      content: '|';
+      animation: blink 1s step-start infinite;
+      @keyframes blink {
+        50% {
+          opacity: 0;
+        }
+      }
+    }
+
+  }
+
+  @media screen and (max-width: 545px) {
+    @include text($textFontFamily, #F4F0FA, 40px, 40px);
+  }
+}
+
+
