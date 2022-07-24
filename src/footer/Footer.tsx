@@ -5,6 +5,7 @@ import facebookIcon from "../assets/footerIcons/facebook.png"
 import gitHubIcon from "../assets/footerIcons/githubIcon.png"
 import linkedinIcon from "../assets/footerIcons/linkedinIcon.png"
 import telegramIcon from "../assets/footerIcons/telegramIcon.png"
+import codewars from "../assets/footerIcons/codewars.png"
 
 
 const Footer = () => {
@@ -25,6 +26,9 @@ const Footer = () => {
                     </a>
                     <a href="https://t.me/jdbes" className={style.round} >
                         <img src={telegramIcon} style={{width:"21px", height:"21px"}} alt={'telegram'}/>
+                    </a>
+                    <a href="https://www.codewars.com/users/alomst" className={style.round} >
+                        <img src={codewars} style={{width:"21px", height:"21px"}} alt={'codewars'}/>
                     </a>
                 </div>
                 <h3 className={style.rights}>© 2022 Druzhko. All rights reserved.</h3>

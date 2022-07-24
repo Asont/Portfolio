@@ -61,13 +61,13 @@ const Projects = () => {
                 <div><Title text={"Projects"}/></div>
                 <div className={style.projectsContainer}>
                     <Project show={showFirst} close={close} setShow={setShowFirst} style={arr[0].img}/>
-                    <Module show={showFirst} close={close} title={arr[0].title} text={arr[0].description} image={Cards}/>
+                    <Module show={showFirst} close={close} title={arr[0].title} text={arr[0].description} image={Cards} link={" "}/>
 
                     <Project show={showSecond} close={close} setShow={setShowSecond} style={arr[1].img}/>
-                    <Module show={showSecond} close={close} title={arr[1].title} text={arr[1].description} image={weatherProject}/>
+                    <Module show={showSecond} close={close} title={arr[1].title} text={arr[1].description} image={weatherProject} link={"https://asont.github.io/weather"}/>
 
                     <Project show={showThird} close={close} setShow={setShowThird} style={arr[2].img}/>
-                    <Module show={showThird} close={close} title={arr[2].title} text={arr[2].description} image={Todo}/>
+                    <Module show={showThird} close={close} title={arr[2].title} text={arr[2].description} image={Todo} link={" "}/>
                 </div>
 
                 </div>

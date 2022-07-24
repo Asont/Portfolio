@@ -7,6 +7,7 @@ type ModuleType = {
     title: string;
     text: string;
     image:string
+    link:string
 };
 
 const Module = (props: ModuleType) => {
@@ -31,7 +32,7 @@ const Module = (props: ModuleType) => {
             <p className={style.titleModal}>{props.title}</p>
             <p className={style.textModal}>{props.text}</p>
                 </div>
-                <a className={style.link} href={" "}>View Project</a>
+                <a className={style.link} href={props.link}>View Project</a>
             </div>
         </div>
     );

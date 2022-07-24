@@ -5,6 +5,7 @@ import gitIcon from '../assets/presentationIcons/gitIcon.png'
 import linkedinIcon from '../assets/presentationIcons/linkedinIcon.png'
 import telegram from '../assets/presentationIcons/telegramIcon.png'
 import codeWars from '../assets/presentationIcons/codewarsIcon.png'
+import facebook from '../assets/presentationIcons/facebookIcon.png'
 
 
 const Presentation = () => {
@@ -43,27 +44,36 @@ const Presentation = () => {
         backgroundImage: `url(${codeWars})`,
     };
 
+    const facebookIcon = {
+        backgroundImage: `url(${facebook})`,
+    };
+
     return (
         <div className={style.mainBlock} style={backgroundImg}>
             <span className={style.text}>Aliaksey Druzhko</span>
             <span className={style.textAuto}>{text}</span>
             <div className={style.iconsBlock}>
-                <a href="https://www.facebook.com/aleksey.druzhko/">
+                <a href="https://github.com/Asont/">
                     <div className={style.icon} style={gitImg}>
                     </div>
                 </a>
-                <a href="https://www.facebook.com/aleksey.druzhko/">
+                <a href="https://www.codewars.com/users/alomst">
+                    <div className={style.icon} style={codeWarsIcon}>
+                    </div>
+                </a>
+                <a href="https://www.linkedin.com/in/aleksey-druzhko">
                     <div className={style.icon} style={linkedin}>
                     </div>
                 </a>
                 <a href="https://www.facebook.com/aleksey.druzhko/">
-                    <div className={style.icon} style={codeWarsIcon}>
+                    <div className={style.icon} style={facebookIcon}>
                     </div>
                 </a>
-                <a href="https://www.facebook.com/aleksey.druzhko/">
+                <a href="https://t.me/jdbes">
                     <div className={style.icon} style={telegramIcon}>
                     </div>
                 </a>
+
 
             </div>
             <div className={style.arrowDown} style={{marginTop: '50px', cursor: 'pointer'}}>
