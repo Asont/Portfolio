@@ -17,13 +17,13 @@ const Skills = () => {
                 <Title text={"Skills"}/>
                 <div className={style.skills}>
                     <Skill icon={jsIcon} title={"JS"}
-                           decription={"Lorem Ipsum is simply dummy text of the printing and typesetting industry."}/>
-                    <Skill icon={reactIcon} title={"React"} decription={"Lorem Ipsum is simply dummy text of the printing."}/>
-                    <Skill icon={cssIcon} title={"CSS"} decription={"Lorem Ipsum is simply dummy text."}/>
+                           decription={" "}/>
+                    <Skill icon={reactIcon} title={"React"} decription={" "}/>
+                    <Skill icon={cssIcon} title={"CSS"} decription={" "}/>
                     <Skill icon={htmlIcon} title={"HTML"}
-                           decription={"Lorem Ipsum is simply dummy text of the printing and typesetting industry."}/>
-                    <Skill  icon={gitIcon} title={"GIT"} decription={"Lorem Ipsum is simply dummy text of the printing."}/>
-                    <Skill icon={typeScript} title={"TypeScript"} decription={"Lorem Ipsum is simply dummy text."}/>
+                           decription={" "}/>
+                    <Skill  icon={gitIcon} title={"GIT"} decription={" "}/>
+                    <Skill icon={typeScript} title={"TypeScript"} decription={" "}/>
                 </div>
             </div>
 

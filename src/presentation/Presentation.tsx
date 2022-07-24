@@ -1,6 +1,10 @@
 import React, {useEffect, useState} from 'react';
 import style from "./Presentation.module.scss"
 import photoProfile from '../assets/bgImage/backgroundPresentation.jpg'
+import gitIcon from '../assets/presentationIcons/gitIcon.png'
+import linkedinIcon from '../assets/presentationIcons/linkedinIcon.png'
+import telegram from '../assets/presentationIcons/telegramIcon.png'
+import codeWars from '../assets/presentationIcons/codewarsIcon.png'
 
 
 const Presentation = () => {
@@ -21,14 +25,48 @@ const Presentation = () => {
         }
     }, [index]);
 
-    const profileImg = {
+    const backgroundImg = {
         backgroundImage: `url(${photoProfile})`,
     };
+    const gitImg = {
+        backgroundImage: `url(${gitIcon})`,
+    };
+    const linkedin = {
+        backgroundImage: `url(${linkedinIcon})`,
+    };
+
+    const telegramIcon = {
+        backgroundImage: `url(${telegram})`,
+    };
+
+    const codeWarsIcon = {
+        backgroundImage: `url(${codeWars})`,
+    };
+
     return (
-        <div className={style.mainBlock} style={profileImg}>
-                <span className={style.text}>Aliaksey Druzhko</span>
-               <span className={style.textAuto}>{text}</span>
-            <div className={style.arrowDown} style={{marginTop:'50px', cursor:'pointer'}}>
+        <div className={style.mainBlock} style={backgroundImg}>
+            <span className={style.text}>Aliaksey Druzhko</span>
+            <span className={style.textAuto}>{text}</span>
+            <div className={style.iconsBlock}>
+                <a href="https://www.facebook.com/aleksey.druzhko/">
+                    <div className={style.icon} style={gitImg}>
+                    </div>
+                </a>
+                <a href="https://www.facebook.com/aleksey.druzhko/">
+                    <div className={style.icon} style={linkedin}>
+                    </div>
+                </a>
+                <a href="https://www.facebook.com/aleksey.druzhko/">
+                    <div className={style.icon} style={codeWarsIcon}>
+                    </div>
+                </a>
+                <a href="https://www.facebook.com/aleksey.druzhko/">
+                    <div className={style.icon} style={telegramIcon}>
+                    </div>
+                </a>
+
+            </div>
+            <div className={style.arrowDown} style={{marginTop: '50px', cursor: 'pointer'}}>
                 <a href={'#main'}><span></span></a>
             </div>
         </div>
