@@ -9,13 +9,14 @@
   position: relative;
   transition: all 0.2s;
 
-  &:hover{
-      cursor: pointer;
-      top: 0;
-      left: 0;
-      transform: translateY(-10px);
-      transition: all 0.3s;
+  &:hover {
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    transform: translateY(-10px);
+    transition: all 0.3s;
   }
+
   @media screen and (max-width: 720px) {
     width: 300px;
     background-size: cover;

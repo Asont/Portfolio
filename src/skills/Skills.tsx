@@ -22,7 +22,7 @@ const Skills = () => {
                     <Skill icon={cssIcon} title={"CSS"} decription={" "}/>
                     <Skill icon={htmlIcon} title={"HTML"}
                            decription={" "}/>
-                    <Skill  icon={gitIcon} title={"GIT"} decription={" "}/>
+                    <Skill icon={gitIcon} title={"GIT"} decription={" "}/>
                     <Skill icon={typeScript} title={"TypeScript"} decription={" "}/>
                 </div>
             </div>

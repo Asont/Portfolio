@@ -30,8 +30,8 @@ const Projects = () => {
     const arr = [
         {
             title: "Cards",
-            description: "Project development in a team.\n"+
-            'Stack: React, Redux, TypeScript, JavaScript, Formik, MUI, Rest API, AXIOS.',
+            description: "Project development in a team.\n" +
+                'Stack: React, Redux, TypeScript, JavaScript, Formik, MUI, Rest API, AXIOS.',
             img: {backgroundImage: `url(${Cards})`}
         },
         {
@@ -53,7 +53,6 @@ const Projects = () => {
     ];
 
 
-
     return (
         <div className={style.projectBlock} id={'projects'}>
 
@@ -61,17 +60,20 @@ const Projects = () => {
                 <div><Title text={"Projects"}/></div>
                 <div className={style.projectsContainer}>
                     <Project show={showFirst} close={close} setShow={setShowFirst} style={arr[0].img}/>
-                    <Module show={showFirst} close={close} title={arr[0].title} text={arr[0].description} image={Cards} link={" "}/>
+                    <Module show={showFirst} close={close} title={arr[0].title} text={arr[0].description} image={Cards}
+                            link={" "}/>
 
                     <Project show={showSecond} close={close} setShow={setShowSecond} style={arr[1].img}/>
-                    <Module show={showSecond} close={close} title={arr[1].title} text={arr[1].description} image={weatherProject} link={"https://asont.github.io/weather"}/>
+                    <Module show={showSecond} close={close} title={arr[1].title} text={arr[1].description}
+                            image={weatherProject} link={"https://asont.github.io/weather"}/>
 
                     <Project show={showThird} close={close} setShow={setShowThird} style={arr[2].img}/>
-                    <Module show={showThird} close={close} title={arr[2].title} text={arr[2].description} image={Todo} link={" "}/>
+                    <Module show={showThird} close={close} title={arr[2].title} text={arr[2].description} image={Todo}
+                            link={" "}/>
                 </div>
 
-                </div>
             </div>
+        </div>
     );
 };
 

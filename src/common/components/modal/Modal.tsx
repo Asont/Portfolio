@@ -6,8 +6,8 @@ type ModuleType = {
     close: () => void;
     title: string;
     text: string;
-    image:string
-    link:string
+    image: string
+    link: string
 };
 
 const Module = (props: ModuleType) => {
@@ -29,8 +29,8 @@ const Module = (props: ModuleType) => {
                     <span className={style.btnX} onClick={props.close}>X</span>
                 </div>
                 <div className={style.textBlock}>
-            <p className={style.titleModal}>{props.title}</p>
-            <p className={style.textModal}>{props.text}</p>
+                    <p className={style.titleModal}>{props.title}</p>
+                    <p className={style.textModal}>{props.text}</p>
                 </div>
                 <a className={style.link} href={props.link}>View Project</a>
             </div>

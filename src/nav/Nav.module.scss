@@ -7,19 +7,21 @@
   display: flex;
   width: 300px;
   justify-content: space-around;
-  margin-right:35px;
+  margin-right: 35px;
+
   .link {
     color: #292929;
     text-decoration: none;
     position: relative;
     padding: 5px;
     z-index: 1;
+
     &::after {
       content: "";
       position: absolute;
       bottom: 9px;
       left: 0;
-      width:97%;
+      width: 97%;
       height: 0;
       background-color: #fad72f;
       right: 0;
@@ -27,6 +29,7 @@
       z-index: -1;
       transition-duration: 0.3s;
     }
+
     &:hover::after {
       width: 97%;
       height: 17%;

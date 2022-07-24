@@ -6,7 +6,6 @@ type TitleType = {
 }
 const Title = (props: TitleType) => {
     return (
-
         <h3 className={style.title}>{props.text}</h3>
 
     );

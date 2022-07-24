@@ -2,12 +2,12 @@ import React from 'react';
 import style from "./Skill.module.scss"
 
 type SkillType = {
-    title:string
-    decription:string
-    icon:string
+    title: string
+    decription: string
+    icon: string
 }
 
-const Skill = (props:SkillType) => {
+const Skill = (props: SkillType) => {
 
     const iconImg = {
         backgroundImage: `url(${props.icon})`,

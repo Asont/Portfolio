@@ -1,9 +1,9 @@
 @import '../../styles/sass/variables';
 @import '../../styles/sass/mixins';
 
-.title{
-    margin: 30px 0 30px 0;
-    @include text($titleFontFamily, $textTitleColor,28px, 44px);
-    font-weight: 400;
-    text-align: center;
+.title {
+  margin: 30px 0 30px 0;
+  @include text($titleFontFamily, $textTitleColor, 28px, 44px);
+  font-weight: 400;
+  text-align: center;
 }
