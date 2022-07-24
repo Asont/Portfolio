@@ -1,6 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import style from "./Header.module.scss"
 import Nav from "../nav/Nav";
+import Title from '../common/components/title/Title';
 
 const Header = () => {
 
@@ -23,9 +24,14 @@ const Header = () => {
     }, []);
 
     return (
+
         <div className={style.header} style={{opacity: value}}>
             <Nav/>
+            <div className={style.lastName}>
+            <Title text={'Druzhko'} styleColor={'#292929'}/>
         </div>
+        </div>
+
     );
 };
 export default Header;

@@ -6,6 +6,7 @@ import linkedinIcon from '../assets/presentationIcons/linkedinIcon.png'
 import telegram from '../assets/presentationIcons/telegramIcon.png'
 import codeWars from '../assets/presentationIcons/codewarsIcon.png'
 import facebook from '../assets/presentationIcons/facebookIcon.png'
+import Title from "../common/components/title/Title";
 
 
 const Presentation = () => {
