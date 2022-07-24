@@ -1,7 +1,7 @@
 import React from 'react';
 import style from "./Main.module.scss"
 import styleContainer from "../common/styles/container.module.css"
-import photoProfile from '../assets/image/profileImage.jpg'
+import photoProfile from '../assets/photoMain/profileImage.jpg'
 import MyPDF from '../assets/cv/cv.pdf'
 
 const Main = () => {

@@ -3,12 +3,12 @@ import style from "./Skills.module.scss"
 import styleContainer from "../common/styles/container.module.css"
 import Skill from "./skill/Skill";
 import Title from '../common/components/title/Title';
-import jsIcon from '../assets/image/jsIcon.png'
-import reactIcon from '../assets/image/reactIcon.png';
-import cssIcon from '../assets/image/cssIcon.png'
-import htmlIcon from '../assets/image/htmlIcon.png'
-import gitIcon from '../assets/image/gitIcon.png'
-import typeScript from '../assets/image/typeScriptIcon.png'
+import jsIcon from '../assets/skillsIcon/jsIcon.png'
+import reactIcon from '../assets/skillsIcon/reactIcon.png';
+import cssIcon from '../assets/skillsIcon/cssIcon.png'
+import htmlIcon from '../assets/skillsIcon/htmlIcon.png'
+import gitIcon from '../assets/skillsIcon/gitIcon.png'
+import typeScript from '../assets/skillsIcon/typeScriptIcon.png'
 
 const Skills = () => {
     return (

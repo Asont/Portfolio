@@ -3,10 +3,10 @@ import style from "./Projects.module.scss"
 import containerCommon from "../common/styles/container.module.css"
 import Project from "./project/Project";
 import Title from '../common/components/title/Title';
-import weatherProject from './../assets/image/weather.png'
+import weatherProject from '../assets/projectsImage/weather.png'
 import Module from "../common/components/modal/Modal";
-import Cards from "./../assets/image/Cards.png"
-import Todo from './../assets/image/Todo.png'
+import Cards from "../assets/projectsImage/Cards.png"
+import Todo from '../assets/projectsImage/Todo.png'
 
 const Projects = () => {
     /*

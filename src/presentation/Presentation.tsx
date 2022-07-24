@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import style from "./Presentation.module.scss"
-import photoProfile from '../assets/bgImage/2.jpg'
+import photoProfile from '../assets/bgImage/backgroundPresentation.jpg'
 
 
 const Presentation = () => {

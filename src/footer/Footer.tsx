@@ -1,10 +1,10 @@
 import React from 'react';
 import style from "./Footer.module.scss"
 import styleContainer from "../common/styles/container.module.css"
-import facebookIcon from "../assets/image/facebook.png"
-import gitHubIcon from "../assets/image/githubIcon.png"
-import linkedinIcon from "../assets/image/linkedinIcon.png"
-import telegramIcon from "../assets/image/telegramIcon.png"
+import facebookIcon from "../assets/footerIcons/facebook.png"
+import gitHubIcon from "../assets/footerIcons/githubIcon.png"
+import linkedinIcon from "../assets/footerIcons/linkedinIcon.png"
+import telegramIcon from "../assets/footerIcons/telegramIcon.png"
 
 
 const Footer = () => {
