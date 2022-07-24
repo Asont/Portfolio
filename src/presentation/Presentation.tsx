@@ -28,6 +28,9 @@ const Presentation = () => {
         <div className={style.mainBlock} style={profileImg}>
                 <span className={style.text}>Aliaksey Druzhko</span>
                <span className={style.textAuto}>{text}</span>
+            <div className={style.arrowDown} style={{marginTop:'50px', cursor:'pointer'}}>
+                <a href={'#main'}><span></span></a>
+            </div>
         </div>
     );
 };

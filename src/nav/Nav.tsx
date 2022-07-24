@@ -7,10 +7,10 @@ const Nav = () => {
 
     return (
         <div className={style.nav}>
-            <a className={style.link} href={" "}>Main</a>
-            <a className={style.link} href={" "}>Skills</a>
-            <a className={style.link} href={" "}>Projects</a>
-            <a className={style.link} href={" "}>Contacts</a>
+            <a className={style.link} href={'#main'}>Main</a>
+            <a className={style.link} href={'#skills'}>Skills</a>
+            <a className={style.link} href={'#projects'}>Projects</a>
+            <a className={style.link} href={'#contacts'}>Contacts</a>
         </div>
     );
 };

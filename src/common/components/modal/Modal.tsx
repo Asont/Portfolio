@@ -6,12 +6,15 @@ type ModuleType = {
     close: () => void;
     title: string;
     text: string;
+    image:string
 };
 
 const Module = (props: ModuleType) => {
     if (!props.show) return null;
 
-    console.log(props.title);
+    const weatherImage = {
+        backgroundImage: `url(${props.image})`,
+    };
 
     return (
         <div className={style.mainContainer} onClick={props.close}>
@@ -21,7 +24,7 @@ const Module = (props: ModuleType) => {
                     e.stopPropagation();
                 }}>
                 <div className={style.header}>
-                    <div className={style.img}></div>
+                    <div className={style.img} style={weatherImage}></div>
                     <span className={style.btnX} onClick={props.close}>X</span>
                 </div>
                 <div className={style.textBlock}>

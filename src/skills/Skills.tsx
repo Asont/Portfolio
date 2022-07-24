@@ -12,7 +12,7 @@ import typeScript from '../assets/image/typeScriptIcon.png'
 
 const Skills = () => {
     return (
-        <div className={style.skillsBlock}>
+        <div className={style.skillsBlock} id={'skills'}>
             <div className={`${styleContainer.container} ${style.skillsContainer}`}>
                 <Title text={"Skills"}/>
                 <div className={style.skills}>

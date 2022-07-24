@@ -1,14 +1,16 @@
 @import '../common/styles/sass/variables';
+@import "../common/styles/sass/mixins";
 
 .footerBlock {
     background-color: $bgSecondColor;
     .container {
+
         flex-direction: column;
         justify-content: space-around;
         .sqareBlock {
+            margin:30px 0;
             width: 271px;
             height: 50px;
-            border: 1px solid;
             display: flex;
             justify-content: space-between;
             .square {
@@ -18,14 +20,21 @@
             }
         }
         .rights {
-            background-color: #c1cfd7;
+           @include text($textColor, #898989, 12px, 1.2)
         }
         .round {
-            width: 5em;
-            height: 5em;
-            border: 2px solid black;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            width: 2.5em;
+            height: 2.5em;
+            border: 1px solid #999999;
             border-radius: 50%;
-            background-image: url(src/assets/image/facebook.png);
+            &:hover{
+                border: 1px solid #292929;
+            }
         }
     }
 

@@ -5,6 +5,7 @@
   width: 100%;
   min-height: 100vh;
 
+
   .container {
     padding: 25px 0 25px 0;
     display: flex;
@@ -12,10 +13,13 @@
     align-items: center;
     justify-content: center;
     background-color: $bgColor;
+
     .projectsContainer {
+      align-items: center;
+      justify-content: space-between;
+      flex-direction: row;
       width: 100%;
       display: flex;
-      justify-content: space-between;
       flex-wrap: wrap;
       box-sizing: border-box;
       padding: 40px;

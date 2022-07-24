@@ -4,15 +4,17 @@
 
 .mainBlock {
   height: 100vh;
-  background-color:$bgColor;
+  background-color: $bgColor;
   justify-content: space-around;
+
   .container {
     justify-content: space-around;
     display: flex;
   }
+
   .text {
     width: 400px;
-    text-align:left;
+    text-align: left;
     @include text($titleFontFamily, $textTitleColor, 28px, 48px);
   }
 
@@ -22,16 +24,19 @@
     height: 459px;
     background-color: #d7eaf1;
   }
-  .description{
+
+  .description {
     @include text($textFontFamily, $textColor, 12px, 14px);
   }
-  .link{
+
+  .link {
     color: #292929;
     text-decoration: none;
     position: relative;
     padding: 5px;
-    @include text($textFontFamily, $textTitleColor , 12px, 12px);
+    @include text($textFontFamily, $textTitleColor, 12px, 12px);
     z-index: 1;
+
     &:after {
       content: "";
       position: absolute;
@@ -45,6 +50,7 @@
       z-index: -1;
       transition-duration: 0.3s;
     }
+
     &:hover::after {
       width: 97%;
       height: 50%;
