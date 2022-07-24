@@ -16,6 +16,7 @@
     width: 400px;
     text-align: left;
     @include text($titleFontFamily, $textTitleColor, 28px, 48px);
+
   }
 
   .photo {

@@ -74,7 +74,7 @@
 
 
   @media screen and (max-width: 545px) {
-    @include text($textFontFamily, #F4F0FA, 40px, 40px);
+    @include text($textFontFamily, #F4F0FA, 32px, 40px);
   }
 }
 
