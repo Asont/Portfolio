@@ -7,7 +7,7 @@ import {TextField} from "@mui/material";
 const Contacts = () => {
 
     return (
-        <div className={style.contactsBlock}>
+        <div className={style.contactsBlock} id='contacts'>
             <div className={`${styleContainer.container} ${style.container}`}>
                 <Title text={"Contacts"}/>
                 <form className={style.formStyle}>
