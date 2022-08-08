@@ -2,6 +2,7 @@ import React, {useEffect, useState} from 'react';
 import style from "./Header.module.scss"
 import Nav from "../nav/Nav";
 import Title from '../common/components/title/Title';
+import  Burger  from '../burgerNav/Burger';
 
 const Header = () => {
 
@@ -27,6 +28,7 @@ const Header = () => {
 
         <div className={style.header} style={{opacity: value}}>
             <Nav/>
+        <Burger/>
             <div className={style.lastName}>
             <Title text={'Druzhko'} styleColor={'#292929'}/>
         </div>

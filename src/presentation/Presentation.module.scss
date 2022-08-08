@@ -4,7 +4,6 @@
 
 .mainBlock {
   height: 100vh;
-  background-color: $bgColor;
   @include backgroundImage();
   display: flex;
   flex-direction: column;

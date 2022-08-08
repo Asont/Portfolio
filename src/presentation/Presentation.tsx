@@ -6,6 +6,7 @@ import linkedinIcon from '../assets/presentationIcons/linkedinIcon.png'
 import telegram from '../assets/presentationIcons/telegramIcon.png'
 import codeWars from '../assets/presentationIcons/codewarsIcon.png'
 import facebook from '../assets/presentationIcons/facebookIcon.png'
+import {Link} from "react-scroll";
 
 
 
@@ -78,7 +79,7 @@ const Presentation = () => {
 
             </div>
             <div className={style.arrowDown} style={{marginTop: '50px', cursor: 'pointer'}}>
-                <a href={'#main'}><span></span></a>
+                <Link className={style.link} to="main" spy={true} smooth={true} offset={-50}  duration={500}><span></span></Link>
             </div>
         </div>
     );

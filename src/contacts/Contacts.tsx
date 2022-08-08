@@ -3,6 +3,7 @@ import style from "./Contacts.module.scss"
 import styleContainer from "../common/styles/container.module.css"
 import Title from "../common/components/title/Title";
 import {TextField} from "@mui/material";
+import Fade from 'react-reveal/Fade';
 
 const Contacts = () => {
 
@@ -10,6 +11,7 @@ const Contacts = () => {
         <div className={style.contactsBlock} id='contacts'>
             <div className={`${styleContainer.container} ${style.container}`}>
                 <Title text={"Contacts"}/>
+                 <Fade right>
                 <form className={style.formStyle}>
                     <TextField
                         id="standard-password-input"
@@ -50,6 +52,7 @@ const Contacts = () => {
 
                     <button className={style.link} type={"submit"}>SEND MESSAGE</button>
                 </form>
+                 </Fade>
             </div>
         </div>
     );

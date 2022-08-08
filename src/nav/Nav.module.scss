@@ -10,6 +10,7 @@
   margin-right: 35px;
 
   .link {
+    cursor: pointer;
     color: #292929;
     text-decoration: none;
     position: relative;
@@ -30,11 +31,19 @@
       transition-duration: 0.3s;
     }
 
-    &:hover::after {
+    &:hover::after{
       width: 97%;
       height: 17%;
       transition: all 0.3s;
       transform: translateX(0);
     }
+
+  }
+  a.active::after{
+    height: 15%;
+    background-color: #fad72f;
+  }
+  @media screen and (max-width: 400px) {
+    display: none;
   }
 }

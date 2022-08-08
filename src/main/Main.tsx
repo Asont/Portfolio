@@ -3,6 +3,8 @@ import style from "./Main.module.scss"
 import styleContainer from "../common/styles/container.module.css"
 import photoProfile from '../assets/photoMain/profileImage.jpg'
 import MyPDF from '../assets/cv/cv.pdf'
+import Tilt from 'react-parallax-tilt';
+import Fade from 'react-reveal/Fade';
 
 const Main = () => {
 
@@ -10,9 +12,12 @@ const Main = () => {
         backgroundImage: `url(${photoProfile})`,
     };
     return (
+        <Fade bottom>
         <div className={style.mainBlock} id='main'>
             <div className={styleContainer.container}>
-                <div className={style.photo} style={profileImg}></div>
+                <Tilt>
+                    <div className={style.photo} style={profileImg}></div>
+                    </Tilt>
                 <div className={style.text}>
                     <span className={style.hiText}>Hi There</span>
                     <h1>I'm Aliaksey Druzhko</h1>
@@ -39,6 +44,7 @@ const Main = () => {
 
             </div>
         </div>
+        </Fade>
     );
 };
 

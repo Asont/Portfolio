@@ -7,16 +7,10 @@ import weatherProject from '../assets/projectsImage/weather.png'
 import Module from "../common/components/modal/Modal";
 import Cards from "../assets/projectsImage/Cards.png"
 import Todo from '../assets/projectsImage/Todo.png'
+import Fade from 'react-reveal/Fade';
 
 const Projects = () => {
-    /*
-        const weatherImage = {
-            backgroundImage: `url(${weatherProject})`,
-        };
-        const socialImg = {
-            backgroundImage: `url(${social})`,
-        };
-    */
+
     const [showFirst, setShowFirst] = useState(false);
     const [showSecond, setShowSecond] = useState(false);
     const [showThird, setShowThird] = useState(false);
@@ -58,6 +52,7 @@ const Projects = () => {
 
             <div className={`${containerCommon.container} ${style.container}`}>
                 <div><Title text={"Projects"}/></div>
+                <Fade bottom>
                 <div className={style.projectsContainer}>
                     <Project show={showFirst} close={close} setShow={setShowFirst} style={arr[0].img}/>
                     <Module show={showFirst} close={close} title={arr[0].title} text={arr[0].description} image={Cards}
@@ -71,6 +66,7 @@ const Projects = () => {
                     <Module show={showThird} close={close} title={arr[2].title} text={arr[2].description} image={Todo}
                             link={" "}/>
                 </div>
+                </Fade>
 
             </div>
         </div>
