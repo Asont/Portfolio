@@ -12,7 +12,6 @@ import {Link} from "react-scroll";
 
 const Presentation = () => {
 
-
     const [text, setText] = useState("");
     const [fullText, setFullText] = useState("Front-end developer            ");
     const [index, setIndex] = useState(0);
