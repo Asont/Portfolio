@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.fa225cff.css",
-    "main.js": "/portfolio/static/js/main.d3013abe.js",
+    "main.css": "/portfolio/static/css/main.d796a873.css",
+    "main.js": "/portfolio/static/js/main.a3292ecb.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/weather.png": "/portfolio/static/media/weather.037ac3e0807201a9fc5d.png",
     "static/media/backgroundPresentation.jpg": "/portfolio/static/media/backgroundPresentation.8a0e6c2fde92eaaf1167.jpg",
     "static/media/cv.pdf": "/portfolio/static/media/cv.2bee946c7ddfc05ef69f.pdf",
     "static/media/profileImage.jpg": "/portfolio/static/media/profileImage.47106e1235a9159da6be.jpg",
+    "static/media/socialNetwork.png": "/portfolio/static/media/socialNetwork.6b65bb65c9814f7da346.png",
     "static/media/codewars.png": "/portfolio/static/media/codewars.34445acde0f153b71aea.png",
     "static/media/Cards.png": "/portfolio/static/media/Cards.4cd3ec5ec800ef576b2b.png",
     "static/media/Todo.png": "/portfolio/static/media/Todo.1bd04f6bd3f82d7942f8.png",
     "static/media/githubIcon.png": "/portfolio/static/media/githubIcon.6114cddb19c227b42ac0.png",
     "index.html": "/portfolio/index.html",
-    "main.fa225cff.css.map": "/portfolio/static/css/main.fa225cff.css.map",
-    "main.d3013abe.js.map": "/portfolio/static/js/main.d3013abe.js.map",
+    "main.d796a873.css.map": "/portfolio/static/css/main.d796a873.css.map",
+    "main.a3292ecb.js.map": "/portfolio/static/js/main.a3292ecb.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fa225cff.css",
-    "static/js/main.d3013abe.js"
+    "static/css/main.d796a873.css",
+    "static/js/main.a3292ecb.js"
   ]
 }
