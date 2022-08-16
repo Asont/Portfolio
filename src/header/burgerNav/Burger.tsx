@@ -23,7 +23,7 @@ const Burger = () => {
 
             </div>
             </Fade>
-            <div className={style.burgerBtn} onClick={()=>{setMenuIsOpen(!menuIsOpen)}} style={{backgroundImage:burgerIcon}}></div>
+            <div className={style.burgerBtn} onClick={()=>{setMenuIsOpen(!menuIsOpen)}}><img src={burgerIcon}/></div>
         </div>
     );
 };

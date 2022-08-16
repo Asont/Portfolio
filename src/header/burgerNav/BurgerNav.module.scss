@@ -41,7 +41,7 @@
         transform: translateX(0);
       }
     @media  screen and (max-width:400px) {
-      padding: 15px 8px 15px 8px;
+      padding: 16px 8px 16px 18px;
     }
     }
   }
@@ -51,18 +51,15 @@
     background-color: #fad72f;
   }
 
-  .burgerBtn {
+  .burgerBtn img{
     position: absolute;
     right: 26px;
     bottom: 0;
     width: 30px;
     height: 30px;
-    @include backgroundImage();
-
   }
 
   .show {
-    align-items: flex-start;
     display: flex;
     height: 100vh;
     top: 0;
@@ -70,6 +67,8 @@
     margin-bottom: 26px;
     flex-direction: column;
     padding:84px 0 0 0;
+    align-items: flex-start;
+    width: 106px;
   }
 
   @media screen and (min-width: 400px) {

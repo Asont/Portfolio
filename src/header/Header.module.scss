@@ -11,17 +11,11 @@
   margin-right: 50px;
   transition: all 0.3s;
   z-index: 2;
+  background-color: $bgColor;
+  box-shadow: 0 67px 12px 0 rgba(0, 0, 0, 0.03);
   .lastName{
     position: fixed;
     left:0;
     margin-left:35px;
-    @media screen and (max-width: 450px) {
-      display: none;
-    }
-  }
-
-  @media screen and (min-width: 400px){
-    background-color: $bgColor;
-    box-shadow: 0 67px 12px 0 rgba(0, 0, 0, 0.03);
   }
 }
