@@ -5,12 +5,10 @@
   width: 100%;
   position: fixed;
   height: 80px;
-  background-color: $bgColor;
   display: flex;
   justify-content: flex-end;
   align-items: center;
   margin-right: 50px;
-  box-shadow: 0 67px 12px 0 rgba(0, 0, 0, 0.03);
   transition: all 0.3s;
   z-index: 2;
   .lastName{
@@ -20,5 +18,10 @@
     @media screen and (max-width: 450px) {
       display: none;
     }
+  }
+
+  @media screen and (min-width: 400px){
+    background-color: $bgColor;
+    box-shadow: 0 67px 12px 0 rgba(0, 0, 0, 0.03);
   }
 }

@@ -1,8 +1,8 @@
 import React, {useEffect, useState} from 'react';
 import style from "./Header.module.scss"
-import Nav from "../nav/Nav";
+import Nav from "./nav/Nav";
 import Title from '../common/components/title/Title';
-import  Burger  from '../burgerNav/Burger';
+import  Burger  from './burgerNav/Burger';
 
 const Header = () => {
 
