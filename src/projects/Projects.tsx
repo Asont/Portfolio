@@ -43,6 +43,15 @@ const Projects = () => {
                 'Using TypeScript for best code control, Bug Fixing,\n' +
                 'deploying. Covering code with unit tests.',
             img: {backgroundImage: `url(${Todo})`}
+        },
+
+        {
+            title: "SocialNetwork",
+            description: 'Cusomer project. \n' +
+                'Stack: CSS, JavaScript, TypeScript, React, Redux,\n' +
+                'Redux-thunk, Redux-form, Axios, Reselect,\n' +
+                'Using TypeScript for best code control, Bug Fixing,\n',
+            img: {backgroundImage: `url(${Todo})`}
         }
     ];
 
@@ -64,6 +73,10 @@ const Projects = () => {
 
                     <Project show={showThird} close={close} setShow={setShowThird} style={arr[2].img}/>
                     <Module show={showThird} close={close} title={arr[2].title} text={arr[2].description} image={Todo}
+                            link={" "}/>
+
+                    <Project show={showThird} close={close} setShow={setShowThird} style={arr[3].img}/>
+                    <Module show={showThird} close={close} title={arr[3].title} text={arr[3].description} image={Todo}
                             link={" "}/>
                 </div>
                 </Fade>

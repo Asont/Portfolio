@@ -1,6 +1,8 @@
 @import '../common/styles/sass/variables';
 
 .skillsBlock {
+  height: 100vh;
+  justify-content: center;
 
   .skillsContainer {
     align-items: center;
@@ -16,5 +18,7 @@
     box-sizing: border-box;
     padding: 20px;
   }
+
+
 }
 
