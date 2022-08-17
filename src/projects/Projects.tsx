@@ -7,6 +7,7 @@ import weatherProject from '../assets/projectsImage/weather.png'
 import Module from "../common/components/modal/Modal";
 import Cards from "../assets/projectsImage/Cards.png"
 import Todo from '../assets/projectsImage/Todo.png'
+import Social from '../assets/projectsImage/socialNetwork.png'
 import Fade from 'react-reveal/Fade';
 
 const Projects = () => {
@@ -51,7 +52,7 @@ const Projects = () => {
                 'Stack: CSS, JavaScript, TypeScript, React, Redux,\n' +
                 'Redux-thunk, Redux-form, Axios, Reselect,\n' +
                 'Using TypeScript for best code control, Bug Fixing,\n',
-            img: {backgroundImage: `url(${Todo})`}
+            img: {backgroundImage: `url(${Social})`}
         }
     ];
 
@@ -76,7 +77,7 @@ const Projects = () => {
                             link={" "}/>
 
                     <Project show={showThird} close={close} setShow={setShowThird} style={arr[3].img}/>
-                    <Module show={showThird} close={close} title={arr[3].title} text={arr[3].description} image={Todo}
+                    <Module show={showThird} close={close} title={arr[3].title} text={arr[3].description} image={Social}
                             link={" "}/>
                 </div>
                 </Fade>
