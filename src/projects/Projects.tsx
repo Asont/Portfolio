@@ -15,11 +15,13 @@ const Projects = () => {
     const [showFirst, setShowFirst] = useState(false);
     const [showSecond, setShowSecond] = useState(false);
     const [showThird, setShowThird] = useState(false);
+    const [showFourth, setShowFourth] = useState(false);
 
     const close = () => {
         setShowFirst(false)
         setShowSecond(false)
         setShowThird(false)
+        setShowFourth(false)
     };
 
     const arr = [
@@ -83,8 +85,8 @@ const Projects = () => {
                                 linkGitHub={'https://github.com/Asont/todolist'}
                                 linkSite={'https://asont.github.io/todolist/#/login'}/>
 
-                        <Project show={showThird} close={close} setShow={setShowThird} style={arr[3].img}/>
-                        <Module show={showThird} close={close} title={arr[3].title} text={arr[3].description}
+                        <Project show={showFourth} close={close} setShow={setShowFourth} style={arr[3].img}/>
+                        <Module show={showFourth} close={close} title={arr[3].title} text={arr[3].description}
                                 image={Social}
                                 linkGitHub={'https://github.com/Asont/todolist'}
                                 linkSite={'https://asont.github.io/login'}/>
