@@ -63,25 +63,33 @@ const Projects = () => {
             <div className={`${containerCommon.container} ${style.container}`}>
                 <div><Title text={"Projects"}/></div>
                 <Fade bottom>
-                <div className={style.projectsContainer}>
-                    <Project show={showFirst} close={close} setShow={setShowFirst} style={arr[0].img}/>
-                    <Module show={showFirst} close={close} title={arr[0].title} text={arr[0].description} image={Cards}
-                            link={" "}/>
+                    <div className={style.projectsContainer}>
+                        <Project show={showFirst} close={close} setShow={setShowFirst} style={arr[0].img}/>
+                        <Module show={showFirst} close={close} title={arr[0].title} text={arr[0].description}
+                                image={Cards}
+                                linkGitHub={'https://github.com/Asont/cards'}
+                                linkSite={'https://asont.github.io/cards/'}/>
 
-                    <Project show={showSecond} close={close} setShow={setShowSecond} style={arr[1].img}/>
-                    <Module show={showSecond} close={close} title={arr[1].title} text={arr[1].description}
-                            image={weatherProject} link={"https://asont.github.io/weather"}/>
 
-                    <Project show={showThird} close={close} setShow={setShowThird} style={arr[2].img}/>
-                    <Module show={showThird} close={close} title={arr[2].title} text={arr[2].description} image={Todo}
-                            link={" "}/>
+                        <Project show={showSecond} close={close} setShow={setShowSecond} style={arr[1].img}/>
+                        <Module show={showSecond} close={close} title={arr[1].title} text={arr[1].description}
+                                image={weatherProject}
+                                linkGitHub={"https://asont.github.io/weather"}
+                                linkSite={'https://asont.github.io/weather/'}/>
 
-                    <Project show={showThird} close={close} setShow={setShowThird} style={arr[3].img}/>
-                    <Module show={showThird} close={close} title={arr[3].title} text={arr[3].description} image={Social}
-                            link={" "}/>
-                </div>
+                        <Project show={showThird} close={close} setShow={setShowThird} style={arr[2].img}/>
+                        <Module show={showThird} close={close} title={arr[2].title} text={arr[2].description}
+                                image={Todo}
+                                linkGitHub={'https://github.com/Asont/todolist'}
+                                linkSite={'https://asont.github.io/todolist/#/login'}/>
+
+                        <Project show={showThird} close={close} setShow={setShowThird} style={arr[3].img}/>
+                        <Module show={showThird} close={close} title={arr[3].title} text={arr[3].description}
+                                image={Social}
+                                linkGitHub={'https://github.com/Asont/todolist'}
+                                linkSite={'https://asont.github.io/login'}/>
+                    </div>
                 </Fade>
-
             </div>
         </div>
     );
