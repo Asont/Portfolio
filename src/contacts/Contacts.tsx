@@ -23,7 +23,7 @@ const Contacts = () => {
     const { register, handleSubmit, formState: { errors } } = useForm<InputsType>();
     const onSubmit: SubmitHandler<InputsType> = async (data) => {
         try{
-            await  axios.post(process.env.REACT_APP_URL || "http://localhost:6060/" ,data)
+            await  axios.post( "https://gmail-nodejs-six.vercel.app/send" ,data)
             setShow(true)
         }catch (e) {
             console.warn(e)
