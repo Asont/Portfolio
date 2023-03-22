@@ -1,14 +1,43 @@
-import React from 'react';
+import React, {useState} from 'react';
 import style from "./Contacts.module.scss"
 import styleContainer from "../common/styles/container.module.css"
 import Title from "../common/components/title/Title";
 import {TextField} from "@mui/material";
 import Fade from 'react-reveal/Fade';
+import { useForm, SubmitHandler } from "react-hook-form";
+import axios from "axios";
+
+type InputsType = {
+    name: string
+    phone: string
+    email:string
+    subject:string
+    message:string
+
+};
 
 const Contacts = () => {
 
+    const [show, setShow] = useState(false)
+
+    const { register, handleSubmit, formState: { errors } } = useForm<InputsType>();
+    const onSubmit: SubmitHandler<InputsType> = async (data) => {
+        try{
+            await  axios.post(process.env.REACT_APP_URL || "http://localhost:6060/" ,data)
+            setShow(true)
+        }catch (e) {
+            console.warn(e)
+            setShow(false)
+        }
+    }
+
+    if(show){
+        return <div>Thanks for sent message I will phone you</div>
+    }
+
+
     return (
-        <div className={style.contactsBlock} id='contacts'>
+        <div className={style.contactsBlock} id='contacts' onSubmit={handleSubmit(onSubmit)}>
             <div className={`${styleContainer.container} ${style.container}`}>
                 <Title text={"Contacts"}/>
                  <Fade right>
@@ -19,6 +48,7 @@ const Contacts = () => {
                         type="text"
                         autoComplete="current-password"
                         variant="standard"
+                        {...register('name')}
                     />
                     <TextField
                         id="standard-password-input"
@@ -26,6 +56,7 @@ const Contacts = () => {
                         type="text"
                         autoComplete="current-password"
                         variant="standard"
+                        {...register('phone')}
                     />
                     <TextField
                         id="standard-password-input"
@@ -33,6 +64,7 @@ const Contacts = () => {
                         type="text"
                         autoComplete="current-password"
                         variant="standard"
+                        {...register('email')}
                     />
                     <TextField
                         id="standard-password-input"
@@ -40,6 +72,7 @@ const Contacts = () => {
                         type="text"
                         autoComplete="current-password"
                         variant="standard"
+                        {...register('subject')}
                     />
                     <TextField
                         className="textfield"
@@ -48,6 +81,7 @@ const Contacts = () => {
                         multiline
                         rows={1}
                         variant="standard"
+                        {...register('message')}
                     />
 
                     <button className={style.link} type={"submit"}>SEND MESSAGE</button>
